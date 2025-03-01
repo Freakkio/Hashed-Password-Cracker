@@ -1,0 +1,20 @@
+This is a password hasher tool to run this tool you need to run it by enetring in the command line 
+
+            python passwordcracker.py --type <hash_type> --wordlist <path_to_wordlist> <hash>
+
+
+            this would allow the code to run 
+
+            If password is found it will show the output as 
+
+            Success! The password is: password123
+  
+
+            If it fails to find the password the output would be
+
+            Password not found.
+
+
+For Example 
+
+python passwordcracker.py --type md5 --wordlist rockyou.txt 5f4dcc3b5aa765d61d8327deb882cf99
